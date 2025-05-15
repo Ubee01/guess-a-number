@@ -1,26 +1,19 @@
 body {
   margin: 0 auto;
-  padding: 20px 50px;
-  max-width: 700px;
+  padding: 20px;
+  max-width: 500px;
   width: 100%;
-  background-color: rgb(169, 178, 178);
+  height: auto;
+  background-color: rgb(122, 209, 209);
 }
 
 .top,
 .three {
   display: flex;
   align-items: center;
-  gap: 350px;
+  gap: 200px;
 }
 
-@media screen and (min-width: 200px) and (max-width: 370) {
-  .top,
-  .three {
-    display: flex;
-    align-items: center;
-    gap: 180px;
-  }
-}
 .again,
 .check {
   padding: 10px 20px;
