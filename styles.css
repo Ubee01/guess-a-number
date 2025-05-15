@@ -12,6 +12,15 @@ body {
   align-items: center;
   gap: 350px;
 }
+
+@media screen and (min-width: 200px) and (max-width: 370) {
+  .top,
+  .three {
+    display: flex;
+    align-items: center;
+    gap: 180px;
+  }
+}
 .again,
 .check {
   padding: 10px 20px;
